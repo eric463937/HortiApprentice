@@ -6,5 +6,5 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     console.log("ready!");
-    $("#footer_box").load("../footer.html");
+    $("#footer_box").load("footer.html");
 });
