@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>以拉基礎工具介紹 - 霍堤亞普 HortiApprentice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/cwtexkai.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="app.js"></script>
+    <link rel="shortcut icon" href="images/icon-04.png">
+
+</head>
+
+<body>
+    <div id="nav_box"></div>
+
+    <div class="container">
+        <img src="images/softwareintro/2_Ai.jpg" alt="" class="headerarticle mi">
+
+        <div class="content">
+
+            <img src="images/softwareintro/3_Aiin.jpg" alt="" class="headerarticle hu">
+            <div class="row" id="article">
+
+                <div class="article">
+
+                    <h1>以拉基礎工具介紹(以CS5.5為例)</h1>
+                    <p>畫分析圖的好伙伴以拉拉，也可以用來做排版。 <a target="_blank" href="file/HortiApprentice%20-%20Illustrator%20teach.ai" class="arbo">本教學附件以拉檔</a></p>
+
+                    <h2>環境設定</h2>
+                    <p>首先按「Ctrl+K」或至「編輯>偏好設定>一般」開啟面板，將<span class="arbo">縮放筆刷和效果</span>勾選後確定。按下「Ctrl+U」或至「檢視>智慧型參考線」將這干擾到不行的螢光綠提示關掉，它在某些時候很好用，但通常滿干擾的。最後，至「視窗」將「變形」、「字元」面板開啟，若右側面板只有圖示，往左拖寬即可顯示名稱。</p>
+                    <div class="arimg">
+                        <img src="images/softwareintro/ai/aiexp2-01.jpg" alt="" class="arin">
+                        <p class="imgexp">環境設定sample，左側的七個工具是後續會介紹的部分</p>
+                    </div>
+
+
+                    <h2>以拉環境認識</h2>
+                    <p> 按著空白鍵時，指標會變成手的樣式，此時按著左鍵即可拖曳畫面。按著Alt鍵時滾動滑鼠滾輪則可以縮放畫面。以拉的物件由錨點與錨點連結所形成，畫面中間灰色圓的上下左右四個點就是錨點，錨點間連線的弧度則由貝茲曲線控制桿調整。顏色則分為填色與筆畫，當顏色是紅色斜線時則代表沒有顏色，筆畫則還有寬度設定。以拉的一個個物件會被分為不同的次圖層，圖層較高的物件會遮擋較低的物件。當物件被選取時，其錨點與連線就會呈現其圖層的顏色，在圖層的面板也會顯示現在選擇的是哪個物件。</p>
+
+                    <div class="arimg">
+                        <img src="images/softwareintro/ai/aiexp2-02.jpg" alt="" class="arin">
+                        <p class="imgexp">圖中選取的的是深灰色的圓，在圖層中它的位置被亮著大紅方塊</p>
+                    </div>
+
+                    <h2>左側工具列</h2>
+                    <p>雖然以拉的功能繁多，但常用的基本工具其實不多，以下就來依序介紹基本工具們。</p>
+
+                    <h3>黑箭頭</h3>
+                    <p>選取工具之首，選到物件後會在四週出現變形框，此時將滑鼠靠近變形框的邊點就可以縮放或旋轉物件。拖曳物件則可可移動它。變形時按著Shift會等比例縮放，按著alt則會以中心點為軸心變形。選取複數物件後按「Ctrl+G」可以群組物件們。</p>
+                    <div class="arimg">
+                        <img src="images/softwareintro/ai/00.gif" alt="" class="arin toolgif"> <img src="images/softwareintro/ai/01.gif" alt="" class="arin toolgif">
+                        <p class="imgexp">黑箭頭</p>
+                    </div>
+
+                    <h3>白箭頭</h3>
+                    <p> 官方名是直接選取工具，它可以直接選到物件的最小單位，像是群組中的單一物件、物件的錨點、物件錨點的貝茲曲線操控桿。如果放大群組內的單一物件，可以先用白箭選取它，再切換到黑箭變形。</p>
+                    <div class="arimg">
+                        <img src="images/softwareintro/ai/02.gif" alt="" class="arin toolgif"> <img src="images/softwareintro/ai/03.gif" alt="" class="arin toolgif"> <img src="images/softwareintro/ai/04.gif" alt="" class="arin toolgif">
+                        <p class="imgexp">白箭頭</p>
+                    </div>
+
+                    <h3>鋼筆工具</h3>
+                    <p> 以拉最重要的塑形工具，點擊時會產生錨點，按住左鍵並拖曳的時候則會產生曲線，若在此同時按下alt的話則可以繪製轉折的曲線，最後靠近起點時在指標的右下方會有o的閉合符號，點下去即可閉合這個物件。若不要必合物件，換到其他工具即可。繪製過程按下復原的話會回到上個點，並繼續繪製。只要選取物件，用鋼筆點擊就可以增加或減少物件的錨點，。用鋼筆塑形時可以不用一次畫到位，畫出雛形再用白箭調整到位就好，而錨點則是用越少越好調整物件的形狀。</p>
+                    <div class="arimg">
+                        <img src="images/softwareintro/ai/p01.gif" alt="" class="arin toolgif"> <img src="images/softwareintro/ai/p02.gif" alt="" class="arin toolgif">
+                        <p class="imgexp">鋼筆工具</p>
+                    </div>
+
+                    <h3>文字工具</h3>
+                    <p> 點一下畫面就可以創建文字列開始輸入文字，點擊畫面的時後拖曳則可以創造文字框，文字會在其中自動換行，文字多出文字框時右下角會有一個「+」的圖示。文字的字型、大小、行距等可以在畫面上排或字元面板控制。如果要再更改文字，可以用選取工具點文字兩下。</p>
+
+                    <h3>矩形工具系列</h3>
+                    <p> 長按文字工具下方的工具按鈕，這個包含矩形、圓角矩形、橢圓...的工具系列就會展開，移動到所要的工具後再放開可以變更創建形狀的類型。拖曳創建形狀時按著Shift就可以變成正方、正圓形，按著alt則可以從點下去的點為中心點創建。其中像是圓角矩形、多邊形工具可以透過按上下鍵變更圓角的半徑或多邊形邊數。新建物件的顏色會自動繼承上一個選取到的物件</p>
+
+                    <h3>滴管</h3>
+                    <p> 選擇A物件後切換到滴管工具，點擊B物件就可以讓A物件套用B物件的填色、筆畫、透明度等屬性。如果是文字時，會連字型也一起套用。</p>
+
+                    <h3>工作區域工具</h3>
+                    <p> 點選之後會出現虛線外框的矩形，這就是工作區域，當輸出成圖片檔或是PDF時，工作區域就是界定哪些部分要輸出的範圍。工作區域可以自由拉大或移動，也可以用畫面上排來套用預設選項或輸入自定數值。開新檔案時就可以自行設定工作區域大小，如果要排版海報的話可以一開始就設定好，<span class="arbo">千萬不要用尺量螢幕，顯示大小跟印刷大小不一定是相等的，請以電腦數值為準。</span>。</p>
+
+                    <h2>右側面板系列</h2>
+                    <p>雖然面板有很多隱藏的方便功能，但本篇先介紹初級的部分。</p>
+
+                    <h3>顏色</h3>
+                    <p> 要真正開始使用顏色面板，首先要點開他右上角的「顯示選項」、「HSB」。至此，顏色面板才終於能發揮其機能。HSB分別指色相、飽和度、明度，是人類最容易預期參數變化之影響的色彩模式。面板左側的雙方塊表示目前變更的是填色或是筆畫，可以點擊切換。</p>
+                    <div class="arimg">
+                        <img src="images/softwareintro/ai/c01.gif" alt="" class="arin">
+                        <p class="imgexp"></p>
+                    </div>
+
+                    <h3>筆畫</h3>
+                    <p> 跟顏色一樣要先點開隱藏在右上角的小宇宙。上半部的功能相信圖示應該很清楚，下半部的功能很重要，說明請見
+                        <a target="_blank" href="technique-arrow.html" class="arbo">箭頭篇</a>
+                    </p>
+                    <h3>漸層</h3>
+                    <p>首先要選取物件，再點擊他的漸層滑桿，此時物件就會被套上漸層。如果要更改顏色，雙擊漸層滑桿下的標籤，然後就跟顏色面板一樣。在滑桿下面點擊可以產生新的顏色標籤，往下拖曳顏色標籤則可以移除顏色。標籤的位置也可以透過拖曳來變更。漸層的方向與位置可以透過畫面左側的漸層工具控制</p>
+
+                    <h3>透明度</h3>
+                    <p>很重要，可是沒什麼好解釋的。面板左邊的「一般」點開可以顯示混合模式選項，這東西要親身試試才能體會效果。</p>
+
+                    <h3>圖層</h3>
+                    <p>最左側的眼睛帶表顯示圖層，按一下則切換為不顯示。往右一欄則是鎖定圖層，鎖定時圖層可見，但不會被選取到。再往右的三角形可以展開/收疊圖層，沒有三角形時表示圖層內沒有任何物件。雙擊圖層可以變更圖層的名稱以及顏色。點擊最右邊的小圈圈可以直接選取物件，如果點擊圖層就可以選到在該圖層的所有物件。右下二的便條紙可以增加新圖層。</p>
+
+                    <h3>變形</h3>
+                    <p>可以顯示物件的大小，在畫有比例的圖時非常的重要，也可以透過輸入數值來改變物件的大小，請見<a target="_blank" href="technique-scalebar.html" class="arbo">比例尺篇</a></p>
+
+                    <h3>對齊</h3>
+                    <p>除了對齊之外還有均分的功能，可以解決人工視覺對齊暨慢又不準的問題。在選取欲對齊物件之後，再點擊其中一個物件，會使它成為關鍵物件，其他物件將以它為準進行對齊，否則將會以所有物件為準進行對齊。</p>
+                    <div class="arimg">
+                        <img src="images/softwareintro/ai/t01.gif" alt="" class="arin">
+                        <p class="imgexp"></p>
+                    </div>
+
+                    <h2>存檔輸出</h2>
+                    <p>以拉存檔的預設格式為「.ai」，這是編輯檔的格式，要有以拉軟體才能開啟，通常不會用在與人交流或拿到別的軟體上繼續使用，要轉存成一般圖檔如JPG檔等才能繼續應用。</p>
+                    <p>以拉的存檔裡面有「.ai」以及「.pdf」可以選擇，當存成PDF檔時會跳出存檔選項，其中有「保留Illustrator編輯能力」的選項，如果保持勾選的話，未來用以拉開起此檔時就跟開一般ai檔一樣。當有多個工作區域時，在PDF中會以工作區域在「工作區域面板」中的順序排定先後。</p>
+                    <p>當要存成一般圖檔時，用「檔案>轉存」然後在選擇存檔類型，如果要保留背景透明就選擇PNG，否則通常會選用JPG。勾選最下排的「使用工作區域」的話以拉就會只出工作區域內的內容，有多個工作區域就出多張圖，像是WORD選擇列印頁面一樣。不勾選的話以拉就會依有物件的範圍輸出圖片。</p>
+                    <p>轉存圖片時，如果是要用再印刷海報上且確定不會再縮放圖片，可將「解析度」換成「中」，印出來才不會一眼就看出模糊。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="footer_box"></div>
+    <!--    <footer>建議以Chrome瀏覽 / <a target="_blank" href="https://goo.gl/forms/sYaUJV69rty6uNNh2"> 問題回復</a></footer>-->
+
+</body>

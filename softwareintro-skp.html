@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SKP基礎工具介紹 - 霍堤亞普 HortiApprentice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/cwtexkai.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="app.js"></script>
+    <link rel="shortcut icon" href="images/icon-04.png">
+
+</head>
+
+<body>
+    <div id="nav_box"></div>
+
+    <div class="container">
+        <img src="images/softwareintro/2_SKP.jpg" alt="" class="headerarticle mi">
+
+        <div class="content">
+
+            <img src="images/softwareintro/3_SKPin.jpg" alt="" class="headerarticle hu">
+            <div class="row" id="article">
+
+                <div class="article">
+
+                    <h1>SKP基礎工具介紹(以2015為例)</h1>
+                    <p>最平易近人的建模軟體(寫到一半發現它的教學還是有夠難寫) <a target="_blank" href="file/HortiApprentice%20-%20Skp%20teach.skp" class="arbo">本教學附件SKP檔</a></p>
+
+                    <h2>環境設定</h2>
+                    <p>首先打開「檢視>工具列」，勾選<span class="arbo">大工具集、沙盒、檢視</span>，其他可以關掉。</p>
+                    <div class="arimg">
+                        <img src="images/softwareintro/skp/skpexp-04.jpg" alt="" class="arin">
+                        <p class="imgexp">環境設定sample，如果不喜歡藍天綠底可以至「視窗>樣式」更換</p>
+                    </div>
+
+
+                    <h2>SKP環境認識</h2>
+                    <p> 按著中鍵移動可以旋轉視角，按著Shift及中鍵移動則可以拖曳畫面。SKP屬於三度空間，紅藍綠軸分別代表xyz軸，SKP有很多操作要移到一個對的視角才好執行，這實在是難以言傳。檢視工具的小房子可以切換視角，在畫面大爆走時可以拯救這一切。當兩個物件相交時，SKP會讓兩者發生干涉而使兩物件合併，可以透過群組物件來避免發生干涉的問題。元件相似於由於群組，當元件被更改時，所有相同的元件也會一併被更改。</p>
+
+
+                    <h2>左側工具列</h2>
+                    <p>大多數的工具在下左四有說明視窗可以參照，本篇就點出常用工具以及重要功能。</p>
+
+                    <h3>選取箭頭</h3>
+                    <p> 單擊選取單一線或面，雙擊面可以選取該面以及邊，連三擊可以選取整個實體。往右拖曳的選取框要全包複材層選到物體，往左的則只要有包到一點就能選到。SKP大多數的變形都要先選取要變形的物體，熟練地使用選取很重要</p>
+
+
+                    <h3>顏料桶</h3>
+                    <p> 填顏色、材質。在填色之後之後可以對物件「按右鍵>紋理>位置」對材質的大小、角度等作調整。</p>
+
+
+                    <h3>創建形狀系列</h3>
+                    <p> SKP創建形狀最大的麻煩在於它是立體空間，一條看似畫在平面上的線，轉個角度可能發現完全不是這麼回事。可以多透過軸線顏色來輔助確認方向。另外，創建時可以多注意下方的動作提示，大多數的創形可以輸入數值來依尺寸建立。</p>
+
+
+                    <h3>移動、旋轉</h3>
+                    <p> 移動及旋轉工具在選擇物件之後使用，可以先點選基準點再進行變形，按一下Ctrl可以變成複製移動，在複製移動後輸入「*N」按下Enter就可以以同樣間距複製N個物件出來，「/N」則可以將間距分成N等份複製物件。移動時按方向鍵可以鎖定移動的方向。</p>
+
+                    <div class="arimg">
+                        <img src="images/softwareintro/skp/01.gif" alt="" class="arin">
+                        <p class="imgexp">複製移動</p>
+                    </div>
+
+                    <h3>路徑跟隨工具</h3>
+                    <p> SKP裡面畫圓球，要用一個圓圈作為路徑及半圓平面，用加上這個工具繞成圓球。希望各位不會用到圓球。</p>
+
+                    <h3>環顧(眼睛)</h3>
+                    <p> 可以用來輸入特定視線高度。</p>
+
+                    <h2>沙盒工具 - 地形創建</h2>
+                    <h3>從等高線建立</h3>
+                    <p>先將等高線們依高度放好，再點選從等高線繪製，SKP就會把這些等高線連成一個連續的面。當線很複雜時很有可能會運算很久或當機，記得隨時存檔。</p>
+                    <div class="arimg">
+                        <img src="images/softwareintro/skp/02.gif" alt="" class="arin">
+                        <p class="imgexp"></p>
+                    </div>
+
+                    <h3>投影</h3>
+                    <p>投影可以讓我們把平面投射到物體上，這可以用在將道路投射到地形上。使用投影工具時，先點選要投影的形狀，再點選要投影到的物體。</p>
+
+                    <h2>上排功能列表</h2>
+
+                    <h3>檢視>動畫</h3>
+                    <p>動畫可以用來記錄視角資訊，此功能的重要性請見
+                        <a target="_blank" href="concept-3dmodel.html" class="arbo">電腦建模篇</a>。
+                    </p>
+
+                    <h3>檢視>陰影</h3>
+                    <p> 透過SKP內建的太陽光源打光，在「視窗>陰影」可以開啟控制面板，調整太陽角度。這也可以用來作陰影分析。 </p>
+
+                    <h2>輸出</h2>
+                    <p>要輸出場景成圖片時，到「檔案>匯出>2D圖形」即可輸出畫面，存檔面板的右下角有「選項」可以調整輸出的圖片大小。</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="footer_box"></div>
+    <!--    <footer>建議以Chrome瀏覽 / <a target="_blank" href="https://goo.gl/forms/sYaUJV69rty6uNNh2"> 問題回復</a></footer>-->
+
+</body>

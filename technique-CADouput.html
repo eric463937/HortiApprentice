@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CAD正確比例出圖 - 霍堤亞普 HortiApprentice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/cwtexkai.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="app.js"></script>
+    <link rel="shortcut icon" href="images/icon-04.png">
+
+</head>
+
+<body>
+    <div id="nav_box"></div>
+
+    <div class="container">
+        <img src="images/technique/CADoutput/2_CADoutput.jpg" alt="" class="headerarticle mi">
+
+        <div class="content">
+
+            <img src="images/technique/CADoutput/2_CADoutputin.jpg" alt="" class="headerarticle hu">
+            <div class="row" id="article">
+
+                <div class="article">
+
+                    <h1>CAD正確比例出圖</h1>
+                    <h2>整潔的圖面</h2>
+                    <p>在出圖之前要先整理圖面，只留下需要的資訊。開啟圖層面板，將無用的圖層關掉。台北市地形圖的圖層名稱通常會有數字代碼，可以參照 <a target="_blank" href="file/Taipei%20Topographic%20Map%20Layercode.pdf" class="arbo">圖層表</a>。另外還有
+                        <a target="_blank" href="file/Taipei%20Topographic%20Map%20Legend.pdf" class="arbo">圖例表</a> 可以對照地圖標記。而圖層最右邊的出圖性質常常會是出圖沒有東西的原因，可以全選之後點一下印表機圖式讓他們全部開啟或關閉。</p>
+
+                    <div class="arimg">
+                        <img src="images/technique/CADoutput/CADexp-01.jpg" alt="" class="arin">
+                        <p class="imgexp">圖層面板開啟位置</p>
+                    </div>
+
+                    <h2>按比例出圖的設定</h2>
+                    <p>整理完圖面之後按下列印 ( 左上紅色LOGO>列印 或 Ctrl+P ) 會出現列印設定的頁面。</p>
+
+
+                    <div class="arimg">
+                        <img src="images/technique/CADoutput/CADexp-02.jpg" alt="" class="arin">
+                        <p class="imgexp">出圖列印設定</p>
+                    </div>
+
+                    <h3>印表機名稱 </h3>
+                    <p> 如果電腦沒有連到印表機，通常會用虛擬印表機列印成PDF檔。用「DWG to PDF」或「Adobe PDF」都可以。</p>
+
+                    <h3>圖紙大小</h3>
+                    <p>出出來的PDF頁面尺寸，選項會受上面的印表機影響。</p>
+
+                    <h3>出圖比例</h3>
+                    <p> 上面的<span class="blue">10公釐是指出圖後得到的單位</span>，<span class="green">下方的單位是指CAD中的單位，在台北市地形圖中通常是1公尺</span>。圖中的設定是指說<span class="blue">出圖的10公釐 (1公分)</span> 會等於 <span class="green">CAD圖中的2單位(2公尺)</span>，也就是1:200。 若要出不同的比例，只要改動下面綠色的單位就好了。若要出1:50就是<span class="blue">10公釐</span>、<span class="green">0.5單位 </span> ，以此類推。
+                    </p>
+
+                    <h3>出圖內容</h3>
+                    <p> 點選”視窗”之後，CAD會跳至圖面，此時要點兩個對角點以窗選要出圖的範圍，若出圖範圍跟比例算起來會超過圖紙大小，在印表機性直下面的圖示會出現紅框警告。「出圖內容」右邊的窗選可以重新選擇出圖範圍。先更改圖面方位的直式或橫式，讓A呈現直立可以讓選取方向跟縮圖一致。</p>
+
+                    <h1></h1>
+                    <p> 設定完後可以先再左下角的預覽確認，若跳出註解比例的警告視窗，除非什麼重要的註解，否則直接按繼續即可。左上角的列印機圖示可以直接輸出預覽結果，右邊的叉叉則可以離開預覽回到出圖設定頁面。</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer_box"></div>
+    <!--    <footer>建議以Chrome瀏覽 / <a target="_blank" href="https://goo.gl/forms/sYaUJV69rty6uNNh2"> 問題回復</a></footer>-->
+
+</body>

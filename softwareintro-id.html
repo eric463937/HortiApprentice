@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ID基礎工具介紹 - 霍堤亞普 HortiApprentice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/cwtexkai.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="app.js"></script>
+    <link rel="shortcut icon" href="images/icon-04.png">
+
+</head>
+
+<body>
+    <div id="nav_box"></div>
+
+    <div class="container">
+        <img src="images/softwareintro/2_ID.jpg" alt="" class="headerarticle mi">
+
+        <div class="content">
+
+            <img src="images/softwareintro/3_IDin.jpg" alt="" class="headerarticle hu">
+            <div class="row" id="article">
+
+                <div class="article">
+
+                    <h1>ID基礎工具介紹(以CS5.5為例)</h1>
+                    <p> 可以說是排版專化的以拉，以排大量資訊版面時，相對於以拉跑的順以及輸出PDF檔案小(可能小到20%)這兩優點，為對初階者的重要功能。本篇就與以拉不同的部分進行介紹。 <a target="_blank" href="file/HortiApprentice%20-%20Illustrator%20teach.ai" class="arbo">本教學附件以拉檔</a></p>
+
+                    <h2>環境設定</h2>
+                    <p>不論是要做海報還是作品集，開起新檔時都選擇新增「文件」就好，因為頁數都不算多，一開始就可以自訂版面大小及預期頁數，頁數未來可以再自行增加。邊界與欄的部分可以直接按確定，這只是一個參考線。右側面板的部分請一樣至視窗開啟。</p>
+                    <div class="arimg">
+                        <img src="images/softwareintro/id/idexp-01.jpg" alt="" class="arin">
+                        <p class="imgexp">環境設定sample</p>
+                    </div>
+
+
+                    <h2>ID環境認識</h2>
+                    <p> ID的每個物件都可以看成由「外框」以及「內容」所組成，當直接縮放物件時，會變更的只有「外框」，「內容」保持原有的大小。按著Ctrl才會讓兩者一起縮放。要只變更圖片內容時，需點擊物件中心的雙圓或點兩下圖片，此時內容的變形框會呈現圖層的互補色。上方列可以監控圖片的大小以及縮放倍數。當檔案內有諸如溢排文字、字型缺失、圖片未更新等錯誤時，畫面下方的燈號會變成紅色警訊。ID預設會自動降低編輯時圖片的解析度，如果非要以高畫質預覽，可以到「檢視>顯示效能>高品質顯示」。</p>
+
+
+
+                    <h2>左側工具列</h2>
+
+                    <h3>文字工具</h3>
+                    <p>ID的文字一律要拖曳成文字框才能使用。</p>
+
+                    <h3>漸層羽化工具</h3>
+                    <p>講白一點應該說透明漸層，他可以分別對外框以及內容使用，達到兩個方向的透明漸層。</p>
+
+
+                    <h2>右側面板系列</h2>
+
+
+                    <h3>頁面</h3>
+                    <p> 很像是以拉的工作區域面板。主板的用途很像是PTT的設計樣式，他可以用來製做一個版面的預設樣式(比方說是背景、頁碼、圖片文字位置等)，再套用到下面的頁面，這在編輯書冊類時很方便，下面顯示A的就是套用了A主板。</p>
+
+
+                    <h3>連結</h3>
+                    <p> 可以用來監控圖片各種資訊的面板，按右鍵可以選擇編輯檔案或開啟檔案位置。當連結的圖片更新時會亮起三角型的警示訊號。用在印刷海報的圖片有效PPI最好能到150以上才不會一看就是糢糊的。</p>
+
+                    <h3>顏色</h3>
+                    <p> ID竟然沒有HSB的選項，這真是太令人失望了。</p>
+
+                    <h3>色票</h3>
+                    <p> ID中要設定文字樣式的顏色時要先設定色票才能選用。</p>
+
+                    <h3>字元、段落</h3>
+                    <p>用來編輯文字的樣子，其實跟以拉一樣，但是在ID裡跟下一個面板關聯度太高了，不得不高光一下。順帶一提，好好運用行距跟與前後段間距可以讓內文讀起來更好分辨。</p>
+
+                    <h3>字元、段落樣式</h3>
+                    <p>兩者乍看相似，都是更改樣式設定時會一併更改所有套用該樣式的文字。重要的差異是，段落樣式是用來套用整篇文字的，字元樣式是用來特定文字的(像是標重點)，字元樣式的影響會優先於段落樣式。以這個網頁為例，以上的『右側面板系列』套用了<span class="arbo">標題二段落樣式</span>；『頁面』、『連結』、『顏色』套用了<span class="arbo">標題三段落樣式</span>；內文們套用了<span class="arbo">內文段落樣式</span>，<span class="green arbo">那現在這段文字</span>就是在內文段落樣式外又套用了一個叫做綠色粗體的字元樣式。新增樣式時會以目前選擇的文字數值做為參數，點兩下樣式名稱就可以進去更改樣式的參數。</p>
+                    <h3>特效</h3>
+                    <p>ID的透明度被藏在這個位置。當要更改特效內容時可以點開右上角的小宇宙>效果，進入編輯視窗。</p>
+
+                    <h2>輸出</h2>
+                    <p>一樣到「檔案>轉存」，會發現PDF有兩個選項，互動式通常會用在電子裝置的交流檔案上，列印則用在印刷檔案上。如果只是要預覽排版結果的話，建議可以選擇JPG輸出，如此一來可以減少電腦讀取圖面的時間。</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="footer_box"></div>
+    <!--    <footer>建議以Chrome瀏覽 / <a target="_blank" href="https://goo.gl/forms/sYaUJV69rty6uNNh2"> 問題回復</a></footer>-->
+
+</body>
