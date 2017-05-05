@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lumion基礎使用介紹 - 霍堤亞普 HortiApprentice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/cwtexkai.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="app.js"></script>
+    <link rel="shortcut icon" href="images/icon-04.png">
+
+</head>
+
+<body>
+    <div id="nav_box"></div>
+
+    <div class="container">
+        <img src="images/softwareintro/3_Lumion.jpg" alt="" class="headerarticle mi">
+
+        <div class="content">
+
+            <img src="images/softwareintro/3_Lumionin.jpg" alt="" class="headerarticle hu">
+            <div class="row" id="article">
+
+                <div class="article">
+
+                    <h1>Lumion基礎使用介紹(以Pro 6為例)</h1>
+                    <p>渲染能在建完模型之後，去設定材質、計算光影以得到更好的畫面成果。Lumion又以具備即時檢視、直觀操作、大量植物元件庫等特性，成為最適合缺乏時間鑽研的使用者們的渲染軟體。這就好像從弓箭演進到了槍枝一樣，大幅降低了訓練所需的時間。</p>
+
+
+
+                    <h2>匯出電模</h2>
+                    <p>進入Lumion前，首先要建立基礎的3D模型，這模型並不需要很齊全，甚至只要建出地形、鋪面以及重要構造物即可，因為實際上輸出時會看到的部份並不多，而且大多都會在加入植栽跟使用者後被掩飾，詳述請見 <a target="_blank" href="concept-3dmodel.html" class="arbo">電腦建模篇</a>。草建完的模型中不同的材質要先分別填色，在代入Lumion材質時，會將相同名稱的材質一同置換，要再分別材質就只能回到電模修改。</p>
+
+                    <p>模型的原點(紅藍綠軸交叉點)會被自動判定為置入點，常會發生在Luimion置入模型後卻不見蹤影，就是因為原點與模型相距甚遠，而沒有出現在畫面中。而建模時注意要以公尺為單位進行，不同的單位會讓匯入後要反覆地調整縮放，浪費不必要的時間。</p>
+
+                    <p>以上的步驟完成後，就可以將模型轉存為DAE格式(「檔案>匯出>3D模型>匯出類型」)，這是Skp模型匯入Lumion時比較快且少失敗的格式。</p>
+
+                    <div class="arimg">
+                        <img src="images/softwareintro//Lumion/Lumionexp-01.jpg" alt="" class="arin">
+                        <p class="imgexp">草建模型 / 出圖視角 / 加入Lumion物件 / 加上畫面特效</p>
+                    </div>
+
+
+
+                    <h2>置入Lumion</h2>
+                    <p> 啟動Lumion後，選擇左上角的平原場景，接著就可以進入編輯畫面，將滑鼠移到畫面右下角的藍色問號就會出現大部分的界面說明。要將模型置入，先切換放置物件成輸入，點選綠色的磁碟片就可以選擇輸出完的電模檔案了。放置地形的電模進入後，先將他抬升離開地面，避免與模型與地面產生干涉，再切換到選單工具(板手圖示)點擊模型置入點的白色圓圈，選擇「額外>註記為地形>On」，這樣放置其他物件時，Lumion才會判定模型是地面，而不會穿透掉到地平面上。</p>
+
+
+                    <div class="arimg">
+                        <img src="images/softwareintro//Lumion/Lumionexp-02.jpg" alt="" class="arin">
+                        <p class="imgexp">Lumion場景編輯介面</p>
+                    </div>
+
+
+                    <h2>調整物件、材質、視角</h2>
+                    <p>在開始雕琢各個細節之前，先大略地代入一下材質及放置植栽、人物等物件，進入靜態圖片編輯(相機圖示)，調整攝影機到預計要出圖的視角，移動滑鼠到空白的相機圖示上，此時上方會浮現一個"儲存相機"的按鈕，用來儲存選定的攝影機位置，未來再點擊場景的圖片就可以回到該視角，利用此功能可以免去重複尋找視角的時間，並特定出不會看到而不用去雕琢的死角。</p>
+
+                    <p>如果需要長草的材質，要先填用「自訂>景觀(山圖示)」的材質，再到「景觀面板>草叢」開啟草叢開關，調整右側的參數就可以看到草長出來了。如果沒有先把模型抬高，這時候就會看到草叢突破地面而出。</p>
+
+
+                    <div class="arimg">
+                        <img src="images/softwareintro//Lumion/Lumionexp-03.jpg" alt="" class="arin">
+                        <p class="imgexp">Lumion圖片編輯畫面</p>
+                    </div>
+
+                    <h2>輸出圖片及儲存編輯檔</h2>
+                    <p>由於Lumion預設的陰影十分昏暗，若直接儲存圖片，很容易變成一片黑色。可以在出圖前，先到靜態圖片編輯畫面，加入"曝光"特效來提升畫面亮度，其他還有"太陽"、"陰影"、"秋季生成器"、"景深"等特效也建議嘗試使用。按下下方的尺寸選項，Lumion就會開始將目前的視角輸出成圖片，若開啟左側的"儲存相片組"，則會把目前上方儲存的視角全部輸出。</p>
+                    <p>Lumion的編輯檔存檔並不會要求使用者指定儲存路徑，只要在儲存時輸入名稱並按下勾勾，檔案就會被存在C槽文件的子資料夾中。在關閉Lumion時會跳出個是否要保存場景的選項，其實這比較接近打包編輯檔用來遷移到其他裝置的功能，直接忽略選則退出即可。</p>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="footer_box"></div>
+    <!--    <footer>建議以Chrome瀏覽 / <a target="_blank" href="https://goo.gl/forms/sYaUJV69rty6uNNh2"> 問題回復</a></footer>-->
+
+</body>
