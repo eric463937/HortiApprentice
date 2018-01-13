@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>利用CAD快速建房 - 霍堤亞普 HortiApprentice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/cwtexkai.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="app.js"></script>
+    <link rel="shortcut icon" href="images/icon-04.png">
+
+</head>
+
+<body>
+    <div id="nav_box"></div>
+
+    <div class="container">
+        <img src="images/technique/CADbuilding/2_CADbuilding.jpg" alt="" class="headerarticle mi">
+
+        <div class="content">
+
+            <img src="images/technique/CADbuilding/2_CADbuildingin.jpg" alt="" class="headerarticle hu">
+            <div class="row" id="article">
+
+                <div class="article">
+
+                    <h1>利用CAD快速建房</h1>
+                    <h2>為甚麼要在CAD建房</h2>
+                    <p>在建環境模時，匯進SketchUP的CAD圖常常到處遺失線段，還要回去對CAD圖看到底這塊是幾層的建物。在SketchUP建周邊房屋可說是又慢又惱人。而在CAD建房，可以保有完整的線段、分明的圖層、迅速的分類、方便的選取等等諸多的好處。只要已有CAD圖檔，基本上一小時內就可以完成拉起周邊房屋的簡易地景模。</p>
+                    <h2>建房前準備</h2>
+                    <p>首先在CAD最上方的右側按鍵叫出工作區，再將工作區從「製圖與註解」轉換「3D基礎」。並將左上角的「2D線架構」轉換成「概念」。</p>
+                    <p>另存一份用來建房的CAD檔，為了減少干擾，在建房之前要先整理圖面， 只留下需要的資訊。開啟圖層面板，將無用的圖層關掉。通常臺北市地形圖的圖層名稱通常會有數字代碼，可以參照 <a target="_blank" href="file/Taipei%20Topographic%20Map%20Layercode.pdf" class="arbo">圖層表</a>。建築物一般會在5跟6層，可以先把其他圖層的小燈泡關掉。並確認目前工作圖層(綠色勾勾)跟建物在不同圖層上。</p>
+                    <p>最後為了要將干擾的填充線刪掉，對畫面按右鍵>快速選取，在物件類型選為「圖塊參考」、運算子選擇「全選」，按下確定便可以選到全部的填充線(注意在使用快速選取之前不要選取任何東西)。再按Delete將填充線全部刪除(或是創建其他圖層把它們丟進去)。</p>
+
+                    <div class="arimg">
+                        <img src="images/technique/CADbuilding/CADbuildingexp-01.jpg" alt="" class="arin">
+                        <p class="imgexp">準備操作：原圖 / 建物圖層 / 刪除填充線</p>
+                    </div>
+
+                    <h2>開始建房</h2>
+                    <p>利用CAD建房的流程，是先透過搜尋找出同樣樓層的建物，統一建起之後，再去搜尋並建立下一個樓層數的建物們。</p>
+                    <p>首先使用前一步的快速選取功能，物件類型選擇「文字」、性質選擇「內容」、運算子選擇「=等於」、內容輸入「__R」(如果要找3R就輸入3R)。按下確定就可以看到所有__R建築物的所在位置。</p>
+                    <p>接下來選取所有建築物的外框線，按下擠出，輸入建築物的高度(一般假定每層樓高3公尺，3R的話就是輸入9；T是臨時建物，一般當作一層樓)，按下Enter就會擠出建物了。</p>
+                    <p>此時會看到剛剛選取的外框被白色給填滿，按住shift再拖曳滾輪，可以旋轉視圖看到被擠出的建物。但是因為旋轉視角之後建房會比較難選，所以建議還是在上視圖進行建房作業(右上角有用來控制視角的方塊)，並將目前工作圖層的燈泡關掉，讓建完的房子自動隱藏，避免誤選及干擾。並從二樓層開始往上建，因為高樓層通常會在較內側，比較不方便選取，而一樓的建物會很多很碎，最後再一起選比較快。</p>
+                    <div class="arimg">
+                        <img src="images/technique/CADbuilding/CADbuildingexp-02.gif" alt="" class="arin">
+                        <p class="imgexp">搜尋>擠出</p>
+                    </div>
+                    <h2>輸出</h2>
+                    <h3>用於SketchUp</h3>
+                    <p>SketchUp可以直接匯入CAD檔(*.dwg)，依據SketchUp版本可能要降存CAD版本(測試結果為:SKP8得降存CAD2006才能匯入，SKP2015可以匯入CAD2016的檔案)</p>
+                    <h3>用於Lumion</h3>
+                    <p>要直接匯入Lumion，在檔案選擇匯出>FBX，即可使用。</p>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer_box"></div>
+    <!--    <footer>建議以Chrome瀏覽 / <a target="_blank" href="https://goo.gl/forms/sYaUJV69rty6uNNh2"> 問題回復</a></footer>-->
+
+</body>
